@@ -85,23 +85,61 @@ li  :hover {
 
 
 <head>
+<link rel="shortcut icon" href="https://ruofftechnologies.com/pictures/favicon.ico">
+<h1 style="text-align:center; font-size:35px;" ><SPAN style="color:grey;"> <img src="../pictures/Logo.png" height="65" width="70" align="middle" hspace="20"> Ruoff Technologies</span><SPAN style="color:blue;">.com</span>
 
-<h1 style="text-align:center; font-size:35px;" ><SPAN style="color:grey;"> <img src="../pictures/Logo.png" height="65" width="70" align="middle" hspace="20"> Ruoff Technologies</span><SPAN style="color:blue;">.com</span></h1>
+<?php 
+
+session_start();
+
+if($_SESSION["username"] != "") {
+
+?>
+
+
+<span style="float: right; font-family:sans-serif; font-size:15px; line-height:250%; padding-right:25px;">  Logged in as: <?php $username = $_SESSION['username']; echo $username; ?>  <form action="https://ruofftechnologies.com/login1/home.php"> <input style="float:right;" type="submit" value="My Orders" /> </form>  <form action="https://ruofftechnologies.com/login1/logout.php">
+    <input style="float:right;" type="submit" value="Logout" /> </form> </span>
+<?php
+
+} else {
+
+header( "Refresh:0; url=https://ruofftechnologies.com/login1/login.php");
+
+?>
+
+
+<script> alert('You must be logged in to access this page. You will be re-directed to the log-in page.'); </script>
+
+<span style="float: right; font-family:sans-serif; font-size:15px; line-height:250%; padding-right:25px;"> <form action="https://ruofftechnologies.com/login1/register.php"> <input type="submit" value="Sign Up" /> </form> 
+
+<form action="https://ruofftechnologies.com/login1/login.php">
+    <input type="submit" value="Sign In" /> </form> </span>
+
+<?php
+
+}
+
+?>
+
+</h1>
 
 <ul>
-  <li><a class="active" href="http://ruofftechnologies.com/homepage.html">Home</a></li>
+  <li><a class="active" href="https://ruofftechnologies.com/homepage.php">Home</a></li>
   <li><a href="#">Products</a>
        <ul>
-	<li><a href="http://ruofftechnologies.com/products/custompcs.html">Custom PCs</a></li>
-	<li><a href="http://ruofftechnologies.com/products/quadcopters.html">Quadcopters</a></li>
+	<li><a href="https://ruofftechnologies.com/products/custompcs.php">Custom PCs</a></li>
+	<li><a href="https://ruofftechnologies.com/products/quadcopters.php">Quadcopters</a></li>
        </ul>
    </li>
-  <li><a href="http://ruofftechnologies.com/contact.html">Contact</a></li>
-  <li><a href="http://ruofftechnologies.com/about.html">About</a></li>
+  <li><a href="https://ruofftechnologies.com/contact.php">Contact</a></li>
+  <li><a href="https://ruofftechnologies.com/about.php">About</a></li>
 </ul>
 
 </head>
 
+<pre>
+
+</pre>
 
 <body>
 <div style="margin: 30px; background-color:#cffff;height: 300px; border: 1px solid black; padding:5px; opacity: 0.6; filter: alpha(opacity=60);">

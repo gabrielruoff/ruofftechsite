@@ -83,51 +83,42 @@ li  :hover {
 
 </SCRIPT>
 
-
 <head>
-
+<link rel="shortcut icon" href="https://ruofftechnologies.com/pictures/favicon.ico">
 <h1 style="text-align:center; font-size:35px;" ><SPAN style="color:grey;"> <img src="../pictures/Logo.png" height="65" width="70" align="middle" hspace="20"> Ruoff Technologies</span><SPAN style="color:blue;">.com</span></h1>
 
 <ul>
-  <li><a class="active" href="http://ruofftechnologies.com/homepage.html">Home</a></li>
+  <li><a class="active" href="https://ruofftechnologies.com/homepage.html">Home</a></li>
   <li><a href="#">Products</a>
        <ul>
-	<li><a href="http://ruofftechnologies.com/products/custompcs.html">Custom PCs</a></li>
-	<li><a href="http://ruofftechnologies.com/products/quadcopters.html">Quadcopters</a></li>
+	<li><a href="https://ruofftechnologies.com/products/custompcs.html">Custom PCs</a></li>
+	<li><a href="https://ruofftechnologies.com/products/quadcopters.html">Quadcopters</a></li>
        </ul>
    </li>
-  <li><a href="http://ruofftechnologies.com/contact.html">Contact</a></li>
-  <li><a href="http://ruofftechnologies.com/about.html">About</a></li>
+  <li><a href="https://ruofftechnologies.com/contact.html">Contact</a></li>
+  <li><a href="https://ruofftechnologies.com/about.html">About</a></li>
 </ul>
 
 </head>
 
-
-<body style="text-align:center">
+<body>
 
 <pre>
 
+
 </pre>
 
-<div style="margin: 30px; background-color:#cffff;height: 300px; border: 1px solid black; padding:0px; opacity: 0.6; filter: alpha(opacity=60);">
+<div style="margin: 30px; background-color:#cffff;height: 300px; border: 1px solid black; padding:5px; opacity: 0.6; filter: alpha(opacity=60);">
 
-<p style="text-align:center; color:black; font-weight:bold; line-height:10%; font-size:40px;" > <u>Place an Order</u> </p>
+<p style="text-align:center; font-weight:bold; font-size:25px;"> Custom PCS From Ruoff Technologies </p>
 
-<p style="text-align:center; color:black; font-weight:bold; font-size:25px;" > Please Choose Which Product You Would Like To Purchase </p>
-
-<a href='/buyadroneconfig.html'> <button onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#ffffff'" style="float:left; padding:10px; border:none; background:green; margin:35px; color:white; cursor:pointer;"> <span> Buy A Quadcopter </button> </a> <p style="font-weight:bold; display:inline-block; color:black; font-size:30px;"> Or </p> <a href='/buyapcconfig.html'> <button onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#ffffff'" style="padding-top:10px; padding-bottom:10px; padding-right:20px; padding-left:20px; border:none; float: right; background:green; margin:35px; color:white; cursor:pointer;"> Buy A PC (Currently Unavailable) </span> </button> </a>
+<p style="font-family:sans-serif; text-align:center; font-size:15px; line-height:250%;"> This service is currently unavailable.
 
 </div>
 
-<pre>
-
-
-</pre>
- 
 <CENTER>
 
 
-<!-- <img src="pictures/quad1.jpg" style="width:304px;height:228px;"> -->
 </body>
 
 
@@ -135,3 +126,4 @@ li  :hover {
 
 
 </html>
+
